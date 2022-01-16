@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "103244a9-0d9f-4a08-95a8-a5690d268a74": {
+      "ProjectGuid": "103244a9-0d9f-4a08-95a8-a5690d268a74",
+      "DisplayName": "aplicacao_crud",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
