@@ -1,0 +1,7 @@
+﻿.row {
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+
+    margin: 10% auto;
+}

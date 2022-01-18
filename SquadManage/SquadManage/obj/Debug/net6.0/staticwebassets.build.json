@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m1/G2Gdf949FEYc5S7Y9S9XGeFeBY/Ir8gvXrVGe2GY=",
+  "Hash": "gnA9ic47iwEQrYn/BMnQnowrKQUeJPP4BoTnZpF1edE=",
   "Source": "SquadManage",
   "BasePath": "_content/SquadManage",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SquadManage.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\css\\login.css",
+      "SourceId": "SquadManage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\",
+      "BasePath": "_content/SquadManage",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\css\\site.css",

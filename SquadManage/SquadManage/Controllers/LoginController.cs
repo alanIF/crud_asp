@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SquadManage.Models;
 
 namespace SquadManage.Controllers
 {
@@ -7,6 +8,13 @@ namespace SquadManage.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult login(UserViewModel user)
+        {
+            return View("Index", user);
         }
     }
 }
