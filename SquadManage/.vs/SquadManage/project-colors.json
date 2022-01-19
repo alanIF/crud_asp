@@ -5,7 +5,22 @@
       "ProjectGuid": "74d971f6-d5c4-428e-b4ab-0744aa076019",
       "DisplayName": "SquadManage",
       "ColorIndex": 0
+    },
+    "068eab08-61c1-4ac2-9e3c-9a104bb1b0fd": {
+      "ProjectGuid": "068eab08-61c1-4ac2-9e3c-9a104bb1b0fd",
+      "DisplayName": "Repository",
+      "ColorIndex": 1
+    },
+    "42ce30d4-1160-4313-8185-8967ddc9bc47": {
+      "ProjectGuid": "42ce30d4-1160-4313-8185-8967ddc9bc47",
+      "DisplayName": "Common",
+      "ColorIndex": 2
+    },
+    "acc58774-20b1-4a8d-aaef-13b3d3d0a753": {
+      "ProjectGuid": "acc58774-20b1-4a8d-aaef-13b3d3d0a753",
+      "DisplayName": "API",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }
