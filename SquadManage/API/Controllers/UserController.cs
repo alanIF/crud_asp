@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Common;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -7,9 +8,15 @@ namespace API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Login(string username, string password) {
-            return Ok();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="user"> Usuario</param>
+
+        /// <returns>Ok</returns>
+        [HttpPost]
+        public IActionResult index(UserModel user) {
+            return Ok(new { response= "logado!"});
         }
     }
 }

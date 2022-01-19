@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\bin\Debug\net6.0\ref\Repository.dll
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\bin\Debug\net6.0\Common.dll
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\bin\Debug\net6.0\Common.pdb
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\Admin\Documents\Programação\C#\crud_asp\SquadManage\Repository\obj\Debug\net6.0\Repository.pdb

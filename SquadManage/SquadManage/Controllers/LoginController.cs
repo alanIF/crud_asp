@@ -7,24 +7,23 @@ namespace SquadManage.Controllers
 {
     public class LoginController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-
-        [HttpPost]
-        public IActionResult login(UserViewModel user)
+        public IActionResult Index(UserViewModel user)
         {
             UserValidator validator = new UserValidator();
             ValidationResult results = validator.Validate(user);
-            if (!results.IsValid) {
-                foreach (var error in results.Errors) { 
+            if (!results.IsValid)
+            {
+                foreach (var error in results.Errors)
+                {
                     Console.WriteLine(error);
-                
+
                 }
             }
             return View("Index", user);
         }
+
+
+
+
     }
 }
