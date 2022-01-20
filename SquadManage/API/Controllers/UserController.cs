@@ -15,8 +15,19 @@ namespace API.Controllers
         /// <returns>Ok</returns>
         [HttpPost]
         public IActionResult login(UserModel user) {
-            
-            return Ok(new { response= "logado!"});
+
+            return Ok(new { response = "logado!" });
+        }
+       
+        /// <summary>
+        /// Register
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        [HttpPost("register")]
+        public IActionResult Register(UserModel user) {
+            return Ok(new { response = "OK" });
+
         }
     }
 }

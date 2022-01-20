@@ -1,6 +1,8 @@
 ﻿@model SquadManage.Models.UserViewModel
 @{
     Layout = null;
+    ViewData["Tittle"] = "Login";
+
 }
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
@@ -10,7 +12,6 @@
 <link rel="stylesheet" href="~/css/login.css" />
 <!-- <script src="~/lib/jquery/dist/jquery.js></script> !-->
 
-<script src="~/js/login.js" ></script>
 
 
 <div class="row">
@@ -27,11 +28,13 @@
              
                       <button type="submit" class="btn btn-primary" >Logar</button>
                       
-                      <button type="button" class="btn btn-info" ><a href="/Login/Register">Cadastrar-se</a></button>
+                    <a href="/Login/Register" class="text-text-decoration-none">  <button type="button" class="btn btn-info" >Cadastrar-se</button></a>
                       </form>
 
       </div>
     </div>
 </div>
+ <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
+<script src="~/js/login.js" ></script>
       
