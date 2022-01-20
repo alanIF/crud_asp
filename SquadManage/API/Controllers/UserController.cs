@@ -9,13 +9,13 @@ namespace API.Controllers
     public class UserController : ControllerBase
     {
         /// <summary>
-        /// 
+        /// Autenticacao
         /// </summary>
         /// <param name="user"> Usuario</param>
-
         /// <returns>Ok</returns>
         [HttpPost]
-        public IActionResult index(UserModel user) {
+        public IActionResult login(UserModel user) {
+            
             return Ok(new { response= "logado!"});
         }
     }

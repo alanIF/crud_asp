@@ -21,7 +21,11 @@ namespace SquadManage.Controllers
             }
             return View("Index", user);
         }
+        public IActionResult Register(UserViewModel user) {
 
+            return View("Register", user);
+
+        }
 
 
 

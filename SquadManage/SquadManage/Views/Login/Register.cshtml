@@ -10,14 +10,17 @@
 <link rel="stylesheet" href="~/css/login.css" />
 <!-- <script src="~/lib/jquery/dist/jquery.js></script> !-->
 
-<script src="~/js/login.js" ></script>
+
 
 
 <div class="row">
          <div class="card text-center ">
-              <div class="card-header bg-primary">Squad Manage</div>
+              <div class="card-header bg-primary">Squad Manage - Cadastre-se</div>
               <div class="card-body">
                   <form>
+                       <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Enter username" id="username" name="username" value="@Model.Username">
+                      </div>
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Enter email" id="email" name="email" value="@Model.Email">
                       </div>
@@ -25,9 +28,8 @@
                         <input type="password" class="form-control" placeholder="Enter password" id="password" name="password" value="@Model.Password">
                       </div>
              
-                      <button type="submit" class="btn btn-primary" >Logar</button>
-                      
-                      <button type="button" class="btn btn-info" ><a href="/Login/Register">Cadastrar-se</a></button>
+             
+                      <button type="submit" class="btn btn-primary" >Cadastrar-se</button>
                       </form>
 
       </div>
