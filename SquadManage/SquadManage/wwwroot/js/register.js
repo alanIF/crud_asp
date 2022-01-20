@@ -2,6 +2,11 @@
 
 $('form').on('submit', function (event) {
     event.preventDefault();
+
+    if ($("#password").val() != $("#confirmPassword").val()) {
+        alert("senhas diferentes")
+        return;
+    }
     var x = {
         username: $("#username").val(),
 

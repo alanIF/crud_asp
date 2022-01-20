@@ -123,6 +123,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Common": "1.0.0",
+          "FluentValidation.AspNetCore": "10.3.6",
           "Repository": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },

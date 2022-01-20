@@ -1,4 +1,6 @@
-﻿using Common;
+﻿using API.Validator;
+using Common;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +28,18 @@ namespace API.Controllers
         /// <returns></returns>
         [HttpPost("register")]
         public IActionResult Register(UserModel user) {
+
+            UserValidator validator = new UserValidator();
+            ValidationResult results = validator.Validate(user);
+            if (!results.IsValid)
+            {
+                foreach (var error in results.Errors)
+                {
+                    Console.WriteLine("Property "+error.PropertyName);
+
+                }
+            }
+
             return Ok(new { response = "OK" });
 
         }

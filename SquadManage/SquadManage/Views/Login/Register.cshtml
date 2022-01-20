@@ -22,16 +22,16 @@
               <div class="card-body">
                   <form>
                        <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter username" id="username" name="username" value="@Model.Username">
+                        <input type="text" class="form-control" placeholder="Enter username" id="username" name="username" value="@Model.Username" required>
                       </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email" id="email" name="email" value="@Model.Email">
+                        <input type="email" class="form-control" placeholder="Enter email" id="email" name="email" value="@Model.Email" required>
                       </div>
                       <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Enter password" id="password" name="password" value="@Model.Password">
+                        <input type="password" class="form-control" placeholder="Enter password" id="password" name="password" value="@Model.Password" required>
                       </div>
              <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Enter password" id="confirmPassword" name="confirmPassword" >
+                        <input type="password" class="form-control" placeholder="Enter password" id="confirmPassword" name="confirmPassword" required>
                       </div>
              
                       <button type="submit" class="btn btn-primary" >Cadastrar-se</button>
