@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/a3Dei9wqht2EBhq8bh2+vCMlje7ZxVBnXoCA0AWmFo=",
+  "Hash": "d2eEvh1gzbhYALlPgEcBVSUa+lHQMdAMDF1GSn3z+3Q=",
   "Source": "SquadManage",
   "BasePath": "_content/SquadManage",
   "Mode": "Default",
@@ -114,6 +114,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\forgot - Cópia.js",
+      "SourceId": "SquadManage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\",
+      "BasePath": "_content/SquadManage",
+      "RelativePath": "js/forgot - Cópia.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\forgot - Cópia.js"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\forgot.js",
       "SourceId": "SquadManage",
       "SourceType": "Discovered",
@@ -163,6 +180,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\register.js"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\reset.js",
+      "SourceId": "SquadManage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\",
+      "BasePath": "_content/SquadManage",
+      "RelativePath": "js/reset.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\reset.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\site.js",

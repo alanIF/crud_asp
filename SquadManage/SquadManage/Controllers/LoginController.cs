@@ -33,6 +33,11 @@ namespace SquadManage.Controllers
             return View("Forgot");
 
         }
+        public IActionResult Reset()
+        {
 
+            return View("Reset");
+
+        }
     }
 }

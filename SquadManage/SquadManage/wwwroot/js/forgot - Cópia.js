@@ -2,7 +2,10 @@
 
 $('form').on('submit', function (event) {
     event.preventDefault();
-    
+    var x = {
+        email: $("#email").val(),
+
+    }
     $.ajax({
         type: "POST",
         dataType: "json",
