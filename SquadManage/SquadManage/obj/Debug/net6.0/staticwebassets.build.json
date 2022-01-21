@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2yxqxwUv+XqIRHVgAppOMokkFzxofNB0O/XAurkn5gg=",
+  "Hash": "/a3Dei9wqht2EBhq8bh2+vCMlje7ZxVBnXoCA0AWmFo=",
   "Source": "SquadManage",
   "BasePath": "_content/SquadManage",
   "Mode": "Default",
@@ -114,12 +114,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\login - Cópia.js",
+      "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\forgot.js",
       "SourceId": "SquadManage",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\",
       "BasePath": "_content/SquadManage",
-      "RelativePath": "js/login - Cópia.js",
+      "RelativePath": "js/forgot.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\login - Cópia.js"
+      "OriginalItemSpec": "wwwroot\\js\\forgot.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\Documents\\Programação\\C#\\crud_asp\\SquadManage\\SquadManage\\wwwroot\\js\\login.js",

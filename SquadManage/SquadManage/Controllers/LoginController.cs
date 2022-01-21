@@ -27,7 +27,12 @@ namespace SquadManage.Controllers
 
         }
 
+        public IActionResult Forgot()
+        {
 
+            return View("Forgot");
+
+        }
 
     }
 }

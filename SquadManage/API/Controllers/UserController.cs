@@ -43,5 +43,20 @@ namespace API.Controllers
             return Ok(new { response = "OK" });
 
         }
+
+        /// <summary>
+        /// forgot, para resetar senha
+        /// </summary>
+        /// <param name="email"></param>
+        /// <returns></returns>
+        [HttpPost("forgot")]
+        public IActionResult Forgot([FromBody] string email)
+        {
+
+          
+
+            return Ok(new { response = "OK" });
+
+        }
     }
 }
