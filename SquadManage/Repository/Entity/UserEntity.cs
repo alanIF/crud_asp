@@ -9,7 +9,7 @@ namespace Repository.Entity
 {
     public class UserEntity
     {
-        public string id { get; set; }
+        public int id { get; set; }
 
         public string Password { get; set; }
         // 1-admkin 0 leitura

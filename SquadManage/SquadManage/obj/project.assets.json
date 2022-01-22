@@ -736,7 +736,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
         },
         "compile": {
           "bin/placeholder/Repository.dll": {}

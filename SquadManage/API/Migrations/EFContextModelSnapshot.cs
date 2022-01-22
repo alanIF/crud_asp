@@ -45,7 +45,7 @@ namespace API.Migrations
             modelBuilder.Entity("Repository.Entity.UserEntity", b =>
                 {
                     b.Property<string>("id")
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -77,7 +77,8 @@ namespace API.Migrations
                         .HasForeignKey("Repository.Entity.UserEntity", "PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
+                    b.Property<string>("id")
+                       .HasColumnType("int");
                     b.Navigation("Person");
                 });
 

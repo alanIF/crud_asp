@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Repository;
+using Repository.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,6 +23,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    addScope(builder.Services);
     app.UseSwagger();
     app.UseSwaggerUI();
     app.UseCors(builder => builder
@@ -28,6 +33,16 @@ if (app.Environment.IsDevelopment())
 
 
     );
+}
+
+void addScope(IServiceCollection services)
+{
+    string connectionString = "Server=(localdb)\\mssqllocaldb;Database=EFCore;Trusted_Connection=True;";
+
+    services.AddDbContext<EFContext>(options=> options.UseSqlServer(connectionString));
+    services.AddScoped<IUserRepository, UserRepository>();
+    services.AddScoped<IUserService, UserService>();
+
 }
 
 app.UseHttpsRedirection();
