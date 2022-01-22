@@ -8,6 +8,6 @@ namespace Common
         public string Password { get; set; }
         public string Username{ get; set;}
         public string confirmPassword { get; set; }
-        //public string id { get; set; }
+        public string id { get; set; }
     }
 }
