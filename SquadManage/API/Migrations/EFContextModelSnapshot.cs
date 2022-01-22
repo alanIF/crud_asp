@@ -78,7 +78,7 @@ namespace API.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                     b.Property<string>("id")
-                       .HasColumnType("int");
+                       .HasColumnType("int");   
                     b.Navigation("Person");
                 });
 
