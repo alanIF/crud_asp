@@ -1,5 +1,6 @@
 ﻿using Common;
 using Microsoft.EntityFrameworkCore;
+using Repository.Entity;
 
 namespace API.Context
 {
@@ -13,6 +14,8 @@ namespace API.Context
 
         }
         // adiciona tabela ao banco de dados, a partir do modelo criado
-        public DbSet<UserModel> Users { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<PersonEntity> Persons { get; set; }
+
     }
 }
